@@ -96,6 +96,39 @@
 - We don't need to download it, we directly use it through internet.
 - `Google sheet` is the best example we don't need to install it like `word excel` to use it we can use it in online.
 
+## Different types of cloud deployments:
+1. Public Cloud
+2. Private Cloud
+3. Hybrid Cloud
+
+### Public Cloud
+- A shared cloud environment where multiple users can access services over the internet, like `AWS` or `Azure`.
+
+### Private Cloud
+- A dedicated cloud environment for one organization, offering more control and privacy.
+
+### Hybrid Cloud
+- A mix of public and private clouds, allowing data and applications to move between them for flexibility.
+
+## Few features commonly offered by cloud providers:
+1. Compute Services
+2. Storage Services
+3. Database Services
+4. Networking Services
+5. Container Services
+6. Serverless Computing
+7. Machine Learning Services
+8. Identity and Access Management (IAM)
+9. Monitoring and Logging
+10. Content Delivery Network(CDN)
+11. Backup and Disaster Recovery
+12. Security and Compliance Tools
+13. Virtual Private Cloud (VPC)
+14. Data Analytics Services
+15. API Management
+
+
+
 
 
 
