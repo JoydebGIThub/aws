@@ -83,6 +83,18 @@
 2. PaaS
 3. SaaS
 
+### IaaS (Infrastructure as a Service)
+- IaaS contains the basic building blocks for cloud IT. It typically provides `access to networking features`, `computers` (virtual or on dedicated hardware), and `data storage space`.
+- IaaS gives you IT resoures. It is most similar to the `existing IT resource` with which many IT departments and developers are familiar.
+
+### PaaS (Platform as a Service)
+- PaaS `removes` the need for you to `manage underlying infrastructure` (usually hardware and operating systems), and allows you to `focus of the deployment` and `management of your application`.
+- This helps you be more efficient as you don't need to worry about the resource procurement, capacity planning, software maintenance, patching, or any of the other undifferentiated heavy lifting invloved in running your application.
+
+### SaaS (Software as a Service)
+- SaaS provides you with a complete product that is run and managed by the `service provider`. In most cases, people referring to SaaS are refering to `end-user applications` (such as web-based email). With a SaaS offering, you don't have to think about how the service is maintained or how the underlying infrastructure is managed. You only need to think about how you will use that particular software.
+- We don't need to download it, we directly use it through internet.
+- `Google sheet` is the best example we don't need to install it like `word excel` to use it we can use it in online.
 
 
 
