@@ -52,6 +52,37 @@
 
 -------------------------------------------------------------------------------------------------------------
 # What is Cloud Computing?
+- On-demand delivery of IT resources over the Internet with `pay-as-you-go` pricing..
+- Access `computing resoures` (like servers, storage, database and software) over the internet, rather than owning and maintaining physical hardware.
+**Cloud Service Provider**:
+1. Amazon Web Service(AWS).
+2. Microsoft Azure
+3. Google Cloud Platform(GCP).
+4. IBM Cloud
+5. Oracle Cloud
+6. Alibaba Cloud
+7. DigitalOcean
+8. Salesforce
+9. VMware CLoud
+10. Rackspace Cloud.
+
+- In this provider has there own big large physical servers.
+- And they use Virtualization (is the process of creating multiple simulated environments or virtual machines from a single physical hardware system, enabling more efficient resource use.) and serve multiple user or organization `through cloud`.
+
+## Use case of Cloud platform
+- Let assume we want to do a business and you create an website
+- And now you want to publish/live/deploye then we need to consider some points like (active 24/7, secure network for (ecomarch service), fast, backups, handle multiple users).
+- Then for all this we can by many servers but then the maintainens, security, etc then its become complecated and costly.
+- So, we have an better options called `rent`, we can rent a service like servers, storage etc from any Service Provider. And all the other necessary things will be handled by the provider we don't need to think about it.
+- And we only pay for the part we use
+
+![image](https://github.com/user-attachments/assets/bfd5bf55-bce6-40c6-8aaa-ce2f8a4b7c45)
+
+## Types of cloud computing
+1. IaaS
+2. PaaS
+3. SaaS
+
 
 
 
