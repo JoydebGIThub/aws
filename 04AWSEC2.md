@@ -15,3 +15,15 @@
 - IAM Role: Attach an IAM role for permissions to access other AWS resources.
 - Use Data: Add scripts to be executed when the instance starts.
 - Elastic IP: Optionally associate a static IP address for consistent public access
+
+## Creating First EC2 Instance
+- Type `EC2` in the search box
+- Select the `EC2`(virtual server in the cloud)
+- Then we find the `EC2 Dashboard`
+![image](https://github.com/user-attachments/assets/16d608de-53f8-4278-946b-1af019804449)
+- `EC2` is region specific. And which region select in the `Stockholm` the server will be present there
+- To create the instance we click on `Launch Instance` then give a name
+![image](https://github.com/user-attachments/assets/af1c17a9-e633-46ed-aca8-da9cc7a653be)
+- Then we selet the AMI (OS)
+
+
