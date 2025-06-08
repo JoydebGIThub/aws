@@ -132,7 +132,29 @@ When you create an encrypted EBS volume and attach it to a supported instance ty
 - All snapshot created from the volume
 - All volumes created from those snapshots
 
+## EBS Lifecycle Manager
+- `Elastic Block Store` --> `Lifecycle Manager`
+- For taking the `snapshot` automatically we can use `Lifecycle Manager`
+- There is no charge
+- Follow the steps for creating the policy
+  - Select the `Custom policy` --> `Next step` --> Target resource Type `Volune`
+ ![image](https://github.com/user-attachments/assets/f0688ba6-dc56-4b6c-9f32-e7b01df0d4ca)
+![image](https://github.com/user-attachments/assets/c92a106a-fb07-41ad-9abc-1c1b614ee16c)
+  - For the `Target resource tag` we go to the `volume` --> `select it` --> click on `Tags` --> `Manage Tags`
+ ![image](https://github.com/user-attachments/assets/03a83b8f-afe2-4b3d-8968-e11bfbfb3e9f)
+  - Add tag
+ ![image](https://github.com/user-attachments/assets/c503467f-b653-445d-8883-54404f144030)
+- now add the tag in resource tag
+![image](https://github.com/user-attachments/assets/1898b5a4-1827-4253-b24a-4738b6cc683d)
+- Then rest of the default then --> Next
+![image](https://github.com/user-attachments/assets/42bb5cdf-0ea2-41ee-acae-31c7a244ddd4)
+- Add the schedular then --> `Review Policy`
+- Then `Create policy`
+![image](https://github.com/user-attachments/assets/bcf9706d-6282-4cf0-888c-cde2cad70fdf)
 
+## If the snapshot deleted by default then what should we do:
+- There is something called `Recycle Bin` to restore the delete item
+- It has cost
 
 
 
