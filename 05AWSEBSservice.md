@@ -67,9 +67,44 @@
 ![image](https://github.com/user-attachments/assets/cd75f20a-04cf-4207-aa25-eca7f3a5a2db)
 
 ## EBS Snapshot
+- Take backup of the storage so that if the data is deleted or correpted some how then we can retrive it from the backup
 
+### What if we want to copy our data to
+- New AZ
+- New Region
 
-
+## Example:
+- If I want to copy the EBS1 from `a zone` to `c zone`
+- 1st take a snapshot of `EBS1` then create a `EBS` with that in `C Zone`
+![image](https://github.com/user-attachments/assets/b88ca079-2307-4166-a026-a9f4c5632d1a)
+- Open the console create a folder save a file with some text
+![image](https://github.com/user-attachments/assets/a21eeb5d-41f9-496b-8920-a34fbc1e4ec9)
+- This will act as our data, Check the `Monitoring` in volumes
+- Now for creating the `snapshot` --> Select the `volume` --> `Action` --> `Create snapshot`
+![image](https://github.com/user-attachments/assets/ced7db4a-45c7-4d3b-af84-0dcdb46ce8cd)
+- Give the description --> `Create a snapshot`
+![image](https://github.com/user-attachments/assets/f721daea-1f7c-4659-ae55-8c6e2846b301)
+- Now check the `snapshot` in the left side `Elastic Block Store` --> `Snapshots`
+![image](https://github.com/user-attachments/assets/688da8af-7bcc-4f03-b781-73ff0684b491)
+- Before use it the status of the `Snapshot status` should be `Completed`
+![image](https://github.com/user-attachments/assets/922e58a9-7852-4acb-95ae-aa66b597a0e2)
+- Now select the `snapshot`--> `Actions` --> `Create volume from snapshot`
+![image](https://github.com/user-attachments/assets/4cb09264-f67b-43cc-9dc1-ea47389a3316)
+- Here we can change the `Zone`
+![image](https://github.com/user-attachments/assets/a2894f88-ea63-4b16-a558-804155ed2d39)
+![image](https://github.com/user-attachments/assets/22ada172-ff05-4270-b24b-a5f4c8f12d31)
+- Now we can create a new instance --> Change the `zone` through `Network settings` --> `Edit` --> and change the `Subnet` in your perticular `Zone`
+![image](https://github.com/user-attachments/assets/f7cb8dde-9956-4a6b-8b7c-0f05c4975886)
+![image](https://github.com/user-attachments/assets/c0518aa8-e10a-47c0-91c8-735df06704ef)
+- now we can go to volume as the previous we can add the snamshot volume with the instance
+- now for accessing the backup data we need to type `sudo file -s /dev/nvmelnlpl`
+- now mount the storage with a point or directory `sudo mkdir /mnt/mybackup`
+- So next where to mount `sudo mount -o nouuid /dev/nvmelnlpl /mnt/mybackup`
+![image](https://github.com/user-attachments/assets/bfe1f4cb-428a-4c1c-9b84-1dc254588e44)
+![image](https://github.com/user-attachments/assets/f502b307-e1be-4bd0-a3c8-ac5b5540b43e)
+- check `df -h`
+- then we can read the old data
+![image](https://github.com/user-attachments/assets/bccf52c5-dce1-437d-9c87-1943544168a0)
 
 
 
