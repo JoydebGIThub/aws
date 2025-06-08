@@ -106,12 +106,31 @@
 - then we can read the old data
 ![image](https://github.com/user-attachments/assets/bccf52c5-dce1-437d-9c87-1943544168a0)
 
+## Unmount EBS
+- After backup we can `unmount` it by using `sudo unmount /mnt/mybackup`
+- If the target it busy then `sudo unmount -l /mnt/mybackup`
+- Then check `df -l`
+![image](https://github.com/user-attachments/assets/ce722cf9-36d0-47ee-8b55-0eef1fb5c687)
+- Detach volume
+![image](https://github.com/user-attachments/assets/88e1c79f-1538-4f47-a384-640d58172e2c)
+- then delete volume
+![image](https://github.com/user-attachments/assets/accc29be-619f-4975-8d86-534bd4aec550)
+- also we can delete the instance also
 
+## EBS Snapshot copy to other region
+- Now I want to use the snapshot in another region
+- Action --> Copy snapshot
+![image](https://github.com/user-attachments/assets/5c2f5113-f549-437f-8e5a-e6534053c2cb)
+- change the region
+![image](https://github.com/user-attachments/assets/dc2dc37d-eff7-4cae-ab87-2358853feefc)
+- For checking we can change the region then we can see the copied snapshot
 
-
-
-
-
+## EBS encryption
+When you create an encrypted EBS volume and attach it to a supported instance type, the following types of data are encrypted
+- Data at rest inside the volume
+- All data moving between the volume and the instance
+- All snapshot created from the volume
+- All volumes created from those snapshots
 
 
 
