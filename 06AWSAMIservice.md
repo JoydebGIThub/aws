@@ -54,3 +54,12 @@
 - We can check through AMI catelog
 
 ![image](https://github.com/user-attachments/assets/6e2a1ab9-db82-4fcd-b5f1-4ed2114986d4)
+
+### UseCase of Paid AMIs:
+- `Rapid Deployment`: The LAMP stack is pre-configured, eliminating the need to manually install and configure Apache, MySQL, and PHP
+- `Scalability and Load Balancing`: Running on AWS enables quick scaling to match website traffic, while Elastic Load Balancer helps in distributing requests.
+- `Cost Efficiency`: You only pay for the infrastructure and the software according to your usage.
+
+![image](https://github.com/user-attachments/assets/c06ca1c7-6f89-4afd-a5f1-060406de48bc)
+![image](https://github.com/user-attachments/assets/7bd4c31c-1c06-4ee0-8af1-24d679e27491)
+
