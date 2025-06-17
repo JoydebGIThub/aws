@@ -63,3 +63,52 @@
 ![image](https://github.com/user-attachments/assets/c06ca1c7-6f89-4afd-a5f1-060406de48bc)
 ![image](https://github.com/user-attachments/assets/7bd4c31c-1c06-4ee0-8af1-24d679e27491)
 
+## Run Cleanup Script:
+- In testing invironment we give access to multiple user and they can access but we need to avoid this in `prod` so for this we need to clean up
+
+![image](https://github.com/user-attachments/assets/45f82f3d-abf5-498c-bc1f-b741999759b5)
+
+## Create Lanuch Template VS Create Image:
+- Template means the configuration of `EC2 instance` that will come
+- Select the instance --> Actions --> Image and templates --> Create template from instance
+
+![image](https://github.com/user-attachments/assets/88cba82a-ae57-4fd7-a614-753a1cb4dc0e)
+
+- Give the templete name
+- Select the AMIs --> My AMIs (webserver-v1)
+- Select the `Instance type`
+- Key pair name
+- Create Launch templete
+- After the instance create Go to Instances --> Launch Templetes
+
+![image](https://github.com/user-attachments/assets/f7f580ad-4365-4be8-b9ff-c16eea53f9d0)
+
+The benifies of it is that we don't need to configure the same type of instance again and again we can select the `Launch Templete` --> `Actions` --> `Launch instance from templete`
+
+![image](https://github.com/user-attachments/assets/c868c2f9-970b-495e-8eff-d0a3123dea10)
+![image](https://github.com/user-attachments/assets/3fda687d-4e06-4a2d-988a-24b1c49d0f14)
+
+### Key Difference
+![image](https://github.com/user-attachments/assets/032497dc-52af-440b-aa3b-d92d65f47d61)
+
+## Summary
+![image](https://github.com/user-attachments/assets/5b8ac09a-6578-42c8-9aff-205aae4e8e0d)
+
+## EC2 Image Builder
+In Left side Images --> AMIs --> EC2 Image Builder
+
+![image](https://github.com/user-attachments/assets/9442d4ab-0c48-47c4-a6cd-da6547d8ecad)
+
+When we can manually create the image then what it do:
+- Automate VM or Image Creation
+  - creation, testing, and deployment of AMIs
+ 
+- Can be configured to run at regular intervals
+  - (daily, weekly or monthly)
+ 
+- Free
+
+![image](https://github.com/user-attachments/assets/3bf7c009-f26b-4afa-94d0-adf92b351cc9)
+
+
+
